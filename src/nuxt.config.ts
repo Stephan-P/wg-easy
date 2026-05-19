@@ -23,6 +23,7 @@ export default defineNuxtConfig({
     classSuffix: '',
     cookieName: 'theme',
   },
+  css: ['~/app.css'],
   i18n: {
     // https://i18n.nuxtjs.org/docs/guide/server-side-translations
     experimental: {
@@ -91,6 +92,11 @@ export default defineNuxtConfig({
         name: 'Polski',
       },
       {
+        code: 'cs',
+        language: 'cs-CZ',
+        name: 'Čeština',
+      },
+      {
         code: 'pt-BR',
         language: 'pt-BR',
         name: 'Português (Brasil)',
@@ -129,6 +135,11 @@ export default defineNuxtConfig({
         code: 'gl',
         language: 'gl-ES',
         name: 'Galego',
+      },
+      {
+        code: 'vi',
+        language: 'vi-VN',
+        name: 'Tiếng Việt',
       },
     ],
     defaultLocale: 'en',

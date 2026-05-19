@@ -18,6 +18,8 @@ import nl from './locales/nl.json';
 import nb from './locales/nb.json';
 import bg from './locales/bg.json';
 import gl from './locales/gl.json';
+import cs from './locales/cs.json';
+import vi from './locales/vi.json';
 
 export default defineI18nConfig(() => ({
   legacy: false,
@@ -43,5 +45,7 @@ export default defineI18nConfig(() => ({
     nb,
     bg,
     gl,
+    cs,
+    vi,
   },
 }));
